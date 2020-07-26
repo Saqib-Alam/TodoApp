@@ -1,0 +1,134 @@
+/* body{
+    text-align: center;
+} */
+
+
+#logo{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+    /* display: flex; */
+}
+
+.main{
+    margin: auto;
+    border: 1px solid black;
+    width: 600px;
+    background-color: #EBEBEB;
+    border-radius: 3px;
+}
+
+.top-bar{
+
+    text-align: center;
+}
+input{
+
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+
+
+}
+
+li{
+    /* margin-left: 2px; */
+    border: 1px solid rgb(189, 186, 186);
+    width: 300px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    /* margin-left: 5px; */
+    
+}
+
+.btn{
+
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: white;
+    border-radius: 3px;
+
+    background-color: rgb(216, 214, 214);
+}
+
+#dltbtn{
+    border: 1px solid rgb(37, 166, 226);
+    margin-top: 2px;
+    margin-left: 1px;
+    /* color: red; */
+}
+
+#dltbtn:hover,#deleteAll:hover{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+
+}
+
+#edbtn:hover,#Add:hover{
+    background-color: rgb(37, 166, 226);
+    border: 1px solid rgb(37, 166, 226);
+    color: white;
+
+}
+
+#edbtn{
+    border: 1px solid rgb(37, 166, 226);
+    /* color: green; */
+
+}
+
+#deleteAll,#Add{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(37, 166, 226);
+}
+
+
+  @media only screen and (max-width: 600px){
+
+    .main{
+        width: 350px;
+        margin: auto;
+    }
+
+    input{
+        margin-bottom: 3px;
+    }
+  }
+
+
+@media only screen and (max-width: 400px) {
+    .main{
+        width: 200px;
+    }
+
+    .top-bar{
+        text-align: center;
+    }
+    input{
+        width: 90%;
+        margin-bottom: 2px ;
+    }
+    li{
+        width: 90%;
+    }
+
+    #dltbtn,#edbtn{
+        width: 90%;
+        display: block;
+        margin: auto;
+        
+    }
+
+    
+  }
+
+
+  
